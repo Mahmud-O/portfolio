@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import profileImage from './assets/profile.jpg';
 
 // Certificate database
 const certificateDatabase = {
@@ -228,9 +227,9 @@ function App() {
                 </div>
 
                 <div className="mb-10 flex justify-center lg:justify-start">
-                  <div className="max-w-max overflow-hidden rounded-[36px] border border-slate-200 bg-white p-5 shadow-[0_32px_80px_-40px_rgba(15,23,42,0.45)] transition-transform duration-300 hover:-translate-y-1">
+                  <div className="relative z-10 max-w-max overflow-hidden rounded-[36px] border border-slate-200 bg-white p-5 shadow-[0_32px_80px_-40px_rgba(15,23,42,0.45)] transition-transform duration-300 hover:-translate-y-1">
                     <img
-                      src={profileImage}
+                      src="/assets/images/profile.jpg"
                       alt="Profile"
                       className="h-72 w-72 rounded-[28px] object-cover shadow-2xl"
                     />
